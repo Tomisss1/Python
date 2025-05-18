@@ -1,4 +1,4 @@
-# Vytvoření README.md souboru
+# Vytvoření README.md
 readme_content = """
 # Python Tahák + Jednoduché příklady
 

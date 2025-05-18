@@ -1,0 +1,76 @@
+🔢 Proměnné a datové typy
+x = 5               # int
+y = 3.14            # float
+text = "Ahoj"       # string
+pravda = True       # bool
+
+➕ Matematické operace
++  sčítání           5 + 3 = 8
+-  odčítání          5 - 2 = 3
+*  násobení          4 * 3 = 12
+/  dělení            10 / 2 = 5.0
+// celočíselné dělení  10 // 3 = 3
+%  zbytek po dělení  10 % 3 = 1
+** mocnina           2 ** 3 = 8
+
+💬 Vstup a výstup
+print("Ahoj")                        
+jmeno = input("Zadej jméno: ")      
+
+📦 Typy a konverze
+int("5"), str(123), float("3.14"), type(x)
+
+🔁 Podmínky
+if x > 0:
+    print("Kladné")
+elif x == 0:
+    print("Nula")
+else:
+    print("Záporné")
+
+🔄 Cykly
+for i in range(5):
+    print(i)
+
+x = 0
+while x < 5:
+    print(x)
+    x += 1
+
+🧱 Funkce
+def pozdrav(jmeno):
+    print("Ahoj, " + jmeno)
+
+📋 Seznamy (list)
+ovoce = ["jablko", "banán"]
+ovoce.append("hruška")
+ovoce.remove("banán")
+
+📚 Slovníky (dict)
+osoba = {"jmeno": "Eva", "vek": 22}
+osoba["vek"] = 23
+
+🎲 Náhodná čísla
+import random
+random.randint(1, 10)
+
+💥 Ošetření chyb
+try:
+    x = 1 / 0
+except ZeroDivisionError:
+    print("Dělení nulou!")
+
+📁 Práce se soubory
+with open("soubor.txt", "w") as f:
+    f.write("Ahoj!")
+
+with open("soubor.txt", "r") as f:
+    print(f.read())
+
+🧪 Porovnání a logika
+==, !=, >, <, >=, <=
+and, or, not
+
+✅ Krátký zápis if
+print("Větší" if x > 5 else "Menší nebo rovno")
+"""
